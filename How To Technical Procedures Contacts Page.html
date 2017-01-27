@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="How To Technical Procedures Styles.css">
+<meta charset="utf-8">
+<title>Contacts Page</title>
+<script>
+	function validateForm () {
+		var nombre = contactForm.fullName.value;
+		var email = contactForm.email.value;
+		var phone = contactForm.tel.value;
+		var comments = contactForm.comments.value;
+		
+		if (email == "" || email == null) {
+			alert("Please remember to fill in the E-mail slot.");
+			return false;
+	}
+}
+</script>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <center>
+      <img src="Images/How To Technical Procedures Logo.JPG" width="316" height="198" alt=""/>
+    </center>
+  </div>
+  <div id="content">
+    <div id="nav">
+      <ul>
+        <li><a href="How To Technical Procedures Home Page.html">Home</a></li>
+        <li><a href="How To Technical Procedures About Us Page.html">About Us</a></li>
+        <li><a href="How To Technical Procedures Tutorials Page.html">Tutorials</a></li>
+        <li><a href="How To Technical Procedures Contacts Page.html">Contacts</a></li>
+      </ul>
+    </div>
+    <div id="info">
+      <form name="contactForm" action="How To Technical Procedures Formmail.php">
+        <p>
+          <label for="textfield">Name:</label>
+          <input type="text" name="fullName" id="fullName" class="input_text"placeholder="Firstname Lastname">
+        </p>
+        <p>&nbsp;</p>
+        <p>&nbsp; </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" class="input_text" placeholder="Firstname.Lastname@gmail.com">
+        </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>
+          <label for="tel">Phone:</label>
+          <input type="tel" name="tel" id="tel" class="input_text" placeholder="555-555-5555">
+        </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>
+          <label for="textarea">Comments:</label>
+          <textarea name="comments" id="comments" class="input_text" placeholder="Insert any comments you have here."></textarea>
+        </p>
+        <p>&nbsp;</p>
+        <p>
+          <input type="submit" name="submit" id="submit" value="Submit" class="input_text" onClick="return validateForm()">
+        <div id="map_canvas"></div>
+      </form>
+    </div>
+  </div>
+  <div id="footer"> &copy; How To Technical Procedures, 2015. 3800 N. Locust Grove, Meridian, ID 83616, All Rights Reserved</div>
+</div>
+</body>
+</html>

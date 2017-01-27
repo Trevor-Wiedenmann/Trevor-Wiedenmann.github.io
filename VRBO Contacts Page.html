@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contacts Page</title>
+<link rel="stylesheet" type="text/css" href="VRBO Styles.css">
+</head>
+
+<body>
+<div id="wrapper">
+<div id="nav">
+  <ul>
+    <li class="blue_border"><a href="VRBO Overview Page.html">Overview</a></li>
+    <li class="blue_border"><a href="VRBO Rates Page.html">Rates</a></li>
+    <li class="blue_border"><a href="VRBO Location Page.html">Location</a></li>
+    <li class="blue_border"><a href="VRBO Contacts Page.html">Contacts</a></li>
+  </ul>
+</div>
+<div id="info">
+<form name="contactForm" action="VRBO Formmail.php">
+<p>
+  <label for="textfield">Name:</label>
+  <input type="text" name="fullName" id="fullName" class="input_text" required>
+</p>
+<p>
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email" class="input_text" required>
+</p>
+<p>
+  <label for="tel">Phone:</label>
+  <input type="tel" name="tel" id="tel" class="input_text" placeholder="555-555-5555" pattern="[0-9]{3}\-[0-9]{3}\-[0-9]{4}" required>
+</p>
+<p>
+  <label for="textarea">Comments:</label>
+  <textarea name="comments" id="comments" class="input_text"></textarea>
+</p>
+<p>
+  <label for="age"> Age:</label>
+  <input type="number"max="110" min="1">
+</p>
+<p>&nbsp;</p>
+<p>
+  <label for="satisfaction">Satisfied:</label>
+  <input type="range" min="1" max="100" value="50">
+</p>
+<p>&nbsp;</p>
+<p>
+  <input type="submit" name="submit" id="submit" value="Submit" class="input_text">
+</p>
+</div>
+<div id="footer">
+  <p><img src="Images/VRBO Logo.jpg" width="676" height="206" alt=""/> &copy; HomeAway.com, Inc. 1995-present. Phone #: (208)-392-4938 
+</div>
+</div>
+</body>
+</html>

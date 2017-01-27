@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	width: 1000px;
+	background-color: #00028A;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#header {
+	width: 980px;
+	margin: auto;
+	background-color: white;
+	height: 200px;
+	background-image: url("Images/One Step Away Logo.jpg");
+}
+#content {
+	width: 980px;
+	margin: 10px auto 0 auto;
+	background-color: white;
+	height: 400px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+#footer {
+	width: 980px;
+	margin: 10px auto 0 auto;
+	background-color: white;
+	height: 200px;
+	text-align:center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:10px;
+	padding-top:10px;
+	color:#BE7000;
+}
+/* navigation system */
+#nav {
+	width: 140px;
+	margin: 10px 20px 10px 5px;
+	background-color: #9F5001;
+	height: 380px;
+	float: left;
+}
+#nav ul {
+	list-style: none;
+}
+#nav ul li {
+	
+}
+#nav ul li a {
+	display:block;
+	height: 30px;
+	padding-top:5px;
+	margin-top:20px;
+}
+#nav ul li a:hover {
+	color:white;
+	background-color: #0049BB;
+}
+#nav a:link {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFB01B;
+	letter-spacing: 3px;
+}
+#nav a:visited {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #002CFF;
+	letter-spacing: 3px;
+}
+#info {
+	width: 790px;
+	background-color: white;
+	height: 390px;
+	margin-left: 150px;
+	border-left: solid #2279FF 1px;
+	padding-left: 10px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+/* Contact Form */
+
+label {
+	width:130px;
+	float:left;
+	padding-bottom:15px;
+}
+
+.input_text {
+	margin-bottom:15px;
+	width:250px;
+}

@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul, li, p, a, div {
+	margin: 0;
+	padding: 0px;
+}
+body {
+	background-color: #0038D1;
+}
+#wrapper {
+	margin: auto;
+	width: 676px;
+}
+#nav li {
+	float: left;
+	list-style-type: none;
+	width: 169px;
+	text-transform: uppercase;
+	text-align: center;
+	height: 33px;
+	font-size: 30px;
+	background-color: white;
+}
+#nav li a {
+	display: block;
+	text-decoration: none;
+}
+#nav a:link, #nav a:visited {
+	color: #69FF35;
+}
+.blue_border {
+	border-bottom: #006E96 2px solid;
+}
+#nav a:hover {
+	background-color: #1B6B00;
+}
+#info {
+	width: 676px;
+	background-color: white;
+	margin: auto;
+	height: 390px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+#footer {
+	width: 676px;
+	margin: 10px auto 0 auto;
+	background-color: white;
+	height: 225px;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	padding-top: 10px;
+	color: #457300;
+}
+label {
+	width: 130px;
+	float: left;
+	padding-bottom: 15px;
+}
+.input_text {
+	margin-bottom: 15px;
+	width: 250px;
+}
+ input:focus:invalid {
+ border: 2px solid red
+}
